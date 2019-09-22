@@ -6,4 +6,19 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: 'Cheddar Games',
+    author: 'Aengus McMillin',
+  },
+  plugins: [
+    'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
+      }
+    },
+    'gatsby-transformer-remark',
+  ]
 }
