@@ -13,7 +13,7 @@ const BlogPage = () => {
           node {
             frontmatter {
               title
-              date
+              date(formatString: "MMMM DD, YYYY")
             }
             fields {
               slug
