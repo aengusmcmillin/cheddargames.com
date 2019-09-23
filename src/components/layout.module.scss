@@ -1,7 +1,5 @@
 .container {
     margin: 0 auto;
-    max-width: 750px;
-    padding: 1rem;
 
     display: flex;
     flex-direction: column;
@@ -9,6 +7,14 @@
 }
 
 .content {
+    margin: 0 auto;
+
     flex-grow: 1;
+    max-width: 950px;
+    width: 100%;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
 }
 

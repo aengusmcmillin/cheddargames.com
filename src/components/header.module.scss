@@ -1,9 +1,22 @@
 .header {
-    padding: 1rem 0 3rem;
+    padding: 1rem 0;
+    background-color: #ffc55a;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header-content {
+    margin: 0 auto;
+    max-width: 950px;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 .title {
-    color: #000000;
+    color: #222222;
     font-size: 3rem;
     text-decoration: none;
 }
@@ -12,19 +25,22 @@
     display: flex;
     list-style-type: none;
     margin: 0;
+    padding: 0;
+    padding-top: 1rem;
 }
 
 .nav-item {
-    color: #999999;
-    font-size: .9rem;
+    color: #555555;
+    font-size: 1rem;
+    font-weight: 500;
     margin-right: 1.3rem;
     text-decoration: none;
 }
 
 .nav-item:hover {
-    color: #666666;
+    color: #333333;
 }
 
 .active-nav-item {
-    color: #333333;
+    color: #111111;
 }

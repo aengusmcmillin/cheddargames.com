@@ -1,47 +1,48 @@
 import React from "react"
-import { Link, graphql, useStaticQuery } from 'gatsby'
+import { Link, graphql, useStaticQuery } from "gatsby"
+
+import blogStyles from "./blog.module.scss"
 
 import Layout from "../components/layout"
 
 const BlogPage = () => {
-    const data = useStaticQuery(graphql`
-        query {
-          allMarkdownRemark {
-            edges {
-              node {
-                frontmatter {
-                  title
-                  date
-                }
-                fields {
-                  slug
-                }
-              }
+  const data = useStaticQuery(graphql`
+    query {
+      allMarkdownRemark {
+        edges {
+          node {
+            frontmatter {
+              title
+              date
+            }
+            fields {
+              slug
             }
           }
         }
-    `);
-  
+      }
+    }
+  `)
+
   return (
     <Layout>
-      <h1>Cheddar Games Blog</h1>
-      <h2>Posts</h2>
-      <ol>
-        {data.allMarkdownRemark.edges.map((edge) => {
-          return (
-            <li>
-              <Link to={`/blog/${edge.node.fields.slug}`}>
-                <h2>{edge.node.frontmatter.title}</h2>
-                <p>{edge.node.frontmatter.date}</p>
-              </Link>
-            </li>
-          )
-        })}
-      </ol>
-
+      <div className={blogStyles.content}>
+        <h2>Posts</h2>
+        <ol>
+          {data.allMarkdownRemark.edges.map(edge => {
+            return (
+              <li>
+                <Link to={`/blog/${edge.node.fields.slug}`}>
+                  <h2>{edge.node.frontmatter.title}</h2>
+                  <p>{edge.node.frontmatter.date}</p>
+                </Link>
+              </li>
+            )
+          })}
+        </ol>
+      </div>
     </Layout>
   )
 }
-
 
 export default BlogPage
