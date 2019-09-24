@@ -11,6 +11,7 @@ module.exports = {
     author: 'Aengus McMillin',
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     `gatsby-plugin-netlify-cms`,
     {
