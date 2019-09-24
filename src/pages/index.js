@@ -7,8 +7,19 @@ const IndexPage = () => {
     return (
         <Layout>
             <h2>
-                Making games with the in-house <Link to="/gouda">Gouda engine</Link>
+                About
             </h2>
+            <p>
+                Cheddar Games is a one-man shop building the <Link to="/gouda">Gouda</Link> engine and games with that engine.
+                Follow development on the <Link to="/blog">devblog</Link>
+            </p>
+            <br/>
+            <h2>
+                Contact
+            </h2>
+            <p>
+                email: <a href="mailto:aengusmcmillin@gmail.com">aengusmcmillin@gmail.com</a>
+            </p>
         </Layout>
     )
 }
