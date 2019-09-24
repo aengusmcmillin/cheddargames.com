@@ -17,4 +17,4 @@ And this is my first day update.
 * Made a logo! I'm not sure if this is exactly what I will keep, but I'm pretty happy with it. Maybe obvious but it isn't actually vectors, just smooth-curves in the Procreate app (such an amazing app btw, will definitely have other updates that include art from that, I feel like my art skills have grown leaps and bounds already just using it for a few weeks). I feel it is at least somewhat reminiscent of a block of cheese, so I'm happy.
 * So not much actual development, I did a bunch of coding yesterday to get a Discord bot working, so today I was happy to do some of the logistics and creative things to get a firm base ready.
 
-![Cheddar Logo](/img/cheddar_logo.png "Cheddar Logo")
+![Cheddar Logo](/img/cheddar_logo.png?nf_resize=fit "Cheddar Logo")
