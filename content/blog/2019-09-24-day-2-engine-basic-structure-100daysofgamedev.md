@@ -7,4 +7,4 @@ Today I got a bit of coding done. I have implemented most of these components be
 
 Nothing special to show off, but I have code on my [Github](https://github.com/aengusmcmillin/Gouda) with basic foundations of the engine refresh. 
 
-Also spent some more time tweaking things on the site and, of course, writing more posts. 
+Also spent some more time tweaking things on the site and, of course, [writing](https://cheddargames.com/blog/2019-09-24-gouda-engine-devlog-intro-and-basic-game-loop) on this blog.
