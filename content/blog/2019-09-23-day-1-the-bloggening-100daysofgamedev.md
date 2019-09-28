@@ -1,5 +1,6 @@
 ---
 title: 'Day 1 - The bloggening #100daysofgamedev '
+path: day-1-the-bloggening
 date: 2019-09-24T02:57:54.185Z
 description: In which I have setup my blog and handled other logistics
 ---
