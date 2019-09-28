@@ -1,5 +1,6 @@
 ---
 title: 'Gouda Engine Devlog: Intro and basic game loop'
+path: devlog-intro
 date: 2019-09-24T15:14:39.590Z
 description: gouda game loop
 ---
