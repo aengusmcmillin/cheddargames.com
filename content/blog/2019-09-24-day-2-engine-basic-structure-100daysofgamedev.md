@@ -1,6 +1,7 @@
 ---
 title: 'Day 2 - Engine Basic Structure #100daysofgamedev'
 date: 2019-09-25T02:52:15.526Z
+identifier: 'day-2-engine-structure'
 description: Basic Gouda Engine Structure
 ---
 Today I got a bit of coding done. I have implemented most of these components before, but I'm taking advantage of this fresh start to rearchitect things a little bit, and contribute things in a more incremental way to make it easier to present it all in future posts.

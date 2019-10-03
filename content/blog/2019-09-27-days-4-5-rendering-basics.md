@@ -1,6 +1,7 @@
 ---
 title: 'Days 4 & 5: Rendering basics'
 date: 2019-09-28T05:15:15.551Z
+identifier: 'day-4-5-rendering-basics'
 description: gettin my render on
 ---
 Forgot to post for day 4, so merging a couple of updates.

@@ -1,3 +1,22 @@
+@import 'variables.scss';
+@import 'reset.scss';
+
+%forms {
+  display: block;
+  padding: 0.75rem;
+  outline: none;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  width: 100%;
+  max-width: 100%;
+  line-height: 1;
+}
+
+#{$forms} {
+  @extend %forms;
+
+}
 
 body {
   margin: 0;
@@ -5,7 +24,7 @@ body {
 
   font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
-  color: #555;
+  color: $font-color;
 }
 
 h1 {

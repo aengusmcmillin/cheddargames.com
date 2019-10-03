@@ -1,6 +1,7 @@
 ---
 title: 'Gouda Engine Devlog: Intro and basic game loop'
 date: 2019-09-24T15:14:39.590Z
+identifier: 'gouda-devlog-intro'
 description: gouda game loop
 ---
 Today I wanted to write down some of my basic plans for the Gouda engine to outline the core architectural ideas that will be in place.

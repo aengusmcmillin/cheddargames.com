@@ -1,6 +1,7 @@
 ---
 title: 'Game Plan: Hearth of Hestia'
 date: 2019-09-25T15:11:50.762Z
+identifier: 'game-plan-hearth'
 description: Hearth of Hestia game plan
 ---
 I have been throwing around this game idea for a while, I have occasionally made small steps towards it, written out plans, maybe tried a bit of art, but nothing significant so far. I'm coming back to it though and feeling better and better about it as I think through the details. So I think I want this to be the game I work towards as I build Gouda. 
