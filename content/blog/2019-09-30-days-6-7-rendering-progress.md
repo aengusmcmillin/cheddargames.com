@@ -2,6 +2,7 @@
 title: 'Days 6 & 7: Rendering progress'
 path: days_6_7_rendering
 date: 2019-09-30T14:08:50.272Z
+identifier: 'days-6-7-rendering'
 description: In which I finally get renderer momentum back
 ---
 Spent day 6 entirely struggling with the borrow checker and lifetimes. I was trying to figure out a way such that I could have a set of traits that defined the api for my rendering system, and then had a set of concrete structs that implemented all that logic. There were a couple of problems with this. The main one was that in order to hook this all up I was going to need to have a generic params on my main components for every single type in the renderer. The reason for this is that, for example, the metal device needs to know concretely how to use the contents of a shader, which means it needs to know it is a metal shader,  and since downcasting in rust is a pain, there wasn't a good solution without either going with Any and all the constraints that entails, or else specifying the shader type in the generics and letting the MetalRenderer specify that it needs a MetalShader, a MetalVertexBuffer, a MetalIndexBuffer, etc... There might have been some obvious solution I was missing, but I didn't make progress on this on day 6.

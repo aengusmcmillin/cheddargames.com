@@ -2,6 +2,7 @@
 title: 'Days 8 - 11: ECS integration and projection matrices'
 path: days-8-11
 date: 2019-10-04T19:27:14.229Z
+identifier: 'days-8-11-ecs-integration'
 description: 'Better ECS integration with rendering, and some maths'
 ---
 

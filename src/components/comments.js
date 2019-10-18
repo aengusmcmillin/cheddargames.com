@@ -100,7 +100,7 @@ export default class Comments extends Component {
         )
 
     const commentForm = () => (
-        <form id="new-comment" onSubmit={this.onSubmitComment}>
+        <form id="new-comment" className={commentsStyles.commentForm} onSubmit={this.onSubmitComment}>
         <input
             type="text"
             name="name"
@@ -129,7 +129,9 @@ export default class Comments extends Component {
 
     return (
         <section id="comments" className={commentsStyles.container}>
+          <h2>Leave a Comment</h2>
           {success || error ? showError() || showSuccess() : commentForm()}
+          <h2>Comments</h2>
           {comments.length > 0 &&
             comments
               .filter(comment => !comment.parent_comment_id || comment.parent_comment_id == 0)
@@ -142,7 +144,7 @@ export default class Comments extends Component {
                 return (
                   <div className={commentsStyles.comment} key={i}>
                     <header>
-                      <h2>{comment.name}</h2>
+                      <h3>{comment.name}</h3>
                       <div className={commentsStyles.date}>{moment(comment.date).fromNow()}</div>
                     </header>
                     <p>{comment.text}</p>

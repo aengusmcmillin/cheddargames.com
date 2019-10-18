@@ -3,6 +3,7 @@ title: 'Days 12-18: Font loading and texture rendering'
 path: days-12-18
 date: 2019-10-14T23:37:18.466Z
 description: Texture loading and font rendering
+identifier: 'days-12-18-font-rendering'
 ---
 This has been a busy week. I just moved out of my apartment yesterday so in the days leading up I was packing, cleaning, dealing with movers, and generally finalizing a ton of logistics and annoying stuff. Now that that is all out of the way I do want to start to pin down a slightly more consistent schedule with development and blogging, although I fly out to Scotland tomorrow to begin my travels, so I will have to find a balance between that and being productive, which could prove tricky. But I will do my best! As for what I got done in the 100 Days of Game Dev Challenge:
 

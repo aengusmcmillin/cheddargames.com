@@ -47,16 +47,20 @@ export default class Blog extends Component {
 
     return (
       <Layout>
-        <h1>{this.props.data.markdownRemark.frontmatter.title}</h1>
-        <p>{this.props.data.markdownRemark.frontmatter.date}</p>
-        <div
-          className={blogTemplateStyles.blogPostContent}
-          dangerouslySetInnerHTML={{
-            __html: this.props.data.markdownRemark.html,
-          }}
-        />
-        <div>
-          {!error && <Comments commentsList={comments} slug={slug} />}
+        <div class="row">
+          <div>
+            <h1>{this.props.data.markdownRemark.frontmatter.title}</h1>
+            <p>{this.props.data.markdownRemark.frontmatter.date}</p>
+            <div
+              className={blogTemplateStyles.blogPostContent}
+              dangerouslySetInnerHTML={{
+                __html: this.props.data.markdownRemark.html,
+              }}
+            />
+            <div>
+              {!error && <Comments commentsList={comments} slug={slug} />}
+            </div>
+          </div>
         </div>
       </Layout>
     )

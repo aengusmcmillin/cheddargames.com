@@ -1,6 +1,18 @@
 
+.content ol {
+    padding-left: 0;
+}
 .content li {
     list-style-type: none;
+}
+
+.content li h2 {
+    margin-bottom: 0;
+}
+
+.content li p {
+    margin: .3rem 0 1.6rem;
+    color: #777777;
 }
 
 .content a {

@@ -26,20 +26,22 @@ const BlogPage = () => {
 
   return (
     <Layout>
-      <div className={blogStyles.content}>
-        <h1>Posts</h1>
-        <ol>
-          {data.allMarkdownRemark.edges.map(edge => {
-            return (
-              <li>
-                <Link to={edge.node.fields.slug}>
-                  <h2>{edge.node.frontmatter.title}</h2>
-                  <p>{edge.node.frontmatter.date}</p>
-                </Link>
-              </li>
-            )
-          })}
-        </ol>
+      <div class="row">
+        <div className={blogStyles.content}>
+          <h1>Blog</h1>
+          <ol>
+            {data.allMarkdownRemark.edges.map(edge => {
+              return (
+                <li>
+                  <Link to={edge.node.fields.slug}>
+                    <h2>{edge.node.frontmatter.title}</h2>
+                    <p>{edge.node.frontmatter.date}</p>
+                  </Link>
+                </li>
+              )
+            })}
+          </ol>
+        </div>
       </div>
     </Layout>
   )

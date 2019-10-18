@@ -1,5 +1,6 @@
 @import 'variables.scss';
 @import 'reset.scss';
+@import 'normalize.min.css';
 
 %forms {
   display: block;
@@ -16,6 +17,11 @@
 #{$forms} {
   @extend %forms;
 
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
 }
 
 body {
